@@ -1,0 +1,59 @@
+img {
+    width: 100%;
+
+
+}
+
+.logo {
+    width: 40%;
+    margin: auto;
+    display: block;
+
+}
+
+.text,
+.foto {
+    width: 250px;
+    padding: 50px;
+    flex-grow: 1;
+
+}
+
+.flex,
+.flex-2 {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.game {
+    width: 200px;
+    padding: 10px;
+    flex-grow: 1;
+    text-align: center;
+    font-weight: 900;
+}
+
+.minecraft {
+    background-image: linear-gradient(to right top, #6dc4fb, #4fb3f9, #31a1f5, #118ff1, #007cea, #006ee5, #005fdf, #004fd7, #0041d1, #0032ca, #021fc2, #1000b9);
+    padding-bottom: 70px;
+    padding-top: 70px;
+    margin-bottom: 50px;
+}
+
+.roblox {
+    background-image: linear-gradient(to right top, #ff7409, #ff8002, #ff8c00, #ff9700, #ffa200, #ffac00, #ffb700, #ffc100, #ffcd00, #ffda00, #ffe600, #fff300);
+    padding-bottom: 70px;
+    padding-top: 70px;
+    margin-bottom: 50px;
+}
+
+.nead {
+    background-image: linear-gradient(to right top, #0022ff, #780df5, #a600ea, #c700df, #e200d5, #f000c1, #f900af, #ff009d, #ff007f, #ff005f, #ff003e, #ff0017);
+
+}
+
+body {
+    margin: 0;
+}
